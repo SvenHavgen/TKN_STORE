@@ -1,0 +1,783 @@
+2018-12-17 17:07:47.928 +11:00 [INF] User profile is available. Using 'C:\Users\tjmatheson\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-17 17:07:49.914 +11:00 [INF] Starting type checking service...
+2018-12-17 17:07:49.919 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:07:49.960 +11:00 [INF] Starting type checking service...
+2018-12-17 17:07:49.962 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:07:50.293 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/  
+2018-12-17 17:07:50.293 +11:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64098/  0
+2018-12-17 17:07:50.320 +11:00 [INF] Request finished in 29.5726ms 200 
+2018-12-17 17:07:50.559 +11:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action TKN_STORE.Controllers.MainController.Index (TKN_STORE)
+2018-12-17 17:07:50.576 +11:00 [INF] Executing action method TKN_STORE.Controllers.MainController.Index (TKN_STORE) - Validation state: "Valid"
+2018-12-17 17:07:50.592 +11:00 [INF] Executed action method TKN_STORE.Controllers.MainController.Index (TKN_STORE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.5071000000000003ms.
+2018-12-17 17:07:50.620 +11:00 [INF] Executing ViewResult, running view Index.
+2018-12-17 17:07:51.709 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.js?v=_Bu4YFnXUBUk7F3bbB_uCF0rt16D-AViPwjKtbnod00  
+2018-12-17 17:07:51.712 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.js?v=QxD_LbAEfEFxqdSDvfZ--kQ1Zd9gyXscugEsS4M-VV8  
+2018-12-17 17:07:51.720 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.css?v=7EBa6wQOASVwMW-afvwt8k7YGWD5mbpX2HZ-adUoBbo  
+2018-12-17 17:07:51.720 +11:00 [INF] Executed ViewResult - view Index executed in 1072.8548ms.
+2018-12-17 17:07:51.740 +11:00 [INF] Executed action TKN_STORE.Controllers.MainController.Index (TKN_STORE) in 1176.1699ms
+2018-12-17 17:07:51.784 +11:00 [INF] Request finished in 1495.3073ms 200 text/html; charset=utf-8
+2018-12-17 17:07:51.837 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.js?v=QxD_LbAEfEFxqdSDvfZ--kQ1Zd9gyXscugEsS4M-VV8
+2018-12-17 17:07:51.839 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=_Bu4YFnXUBUk7F3bbB_uCF0rt16D-AViPwjKtbnod00
+2018-12-17 17:07:51.841 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.css?v=7EBa6wQOASVwMW-afvwt8k7YGWD5mbpX2HZ-adUoBbo
+2018-12-17 17:07:56.997 +11:00 [INF] Type checking in progress...
+2018-12-17 17:07:57.058 +11:00 [INF] Node will restart because file changed: C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\main-client.js
+2018-12-17 17:07:57.061 +11:00 [INF] webpack built f837862ec9e83b64d39d in 7093ms
+2018-12-17 17:07:57.249 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Failed to compile.
+2018-12-17 17:07:57.256 +11:00 [ERR] [31m├ù[39m [90m∩╜ówdm∩╜ú[39m: Hash: f837862ec9e83b64d39d
+Version: webpack 4.23.1
+Time: 7093ms
+Built at: 2018-12-17 17:07:56
+                               Asset      Size       Chunks                    Chunk Names
+41b61ebfee29e470850ed2d2d889e33f.png    55 KiB               [emitted]         
+                      main-client.js   614 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ./ClientApp/styles/main.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/main.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/main.scss 4:14-122 18:2-22:4 19:20-128
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/authorizedLayout.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/authorizedLayout.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/authorizedLayout.scss 4:14-134 18:2-22:4 19:20-140
+ @ ./ClientApp/layouts/AuthorizedLayout.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/guestLayout.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/guestLayout.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/guestLayout.scss 4:14-129 18:2-22:4 19:20-135
+ @ ./ClientApp/layouts/GuestLayout.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/loader.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/loader.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/loader.scss 4:14-124 18:2-22:4 19:20-130
+ @ ./ClientApp/components/shared/Loader.tsx
+ @ ./ClientApp/pages/LoginPage.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+2018-12-17 17:07:57.327 +11:00 [INF] No type errors found
+2018-12-17 17:07:57.343 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:07:57.354 +11:00 [INF] Time: 7384ms
+2018-12-17 17:07:57.393 +11:00 [INF] Request finished in 5678.4333ms 200 application/javascript; charset=UTF-8
+2018-12-17 17:07:57.434 +11:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\vendor.css'
+2018-12-17 17:07:57.444 +11:00 [INF] Request finished in 5727.9679ms 200 text/css
+2018-12-17 17:07:57.662 +11:00 [INF] No type errors found
+2018-12-17 17:07:57.673 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:07:57.684 +11:00 [INF] Time: 7690ms
+2018-12-17 17:07:57.705 +11:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\vendor.js'
+2018-12-17 17:07:57.707 +11:00 [INF] Request finished in 6008.5451ms 200 application/javascript
+2018-12-17 17:07:57.794 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2018-12-17 17:08:58.004 +11:00 [INF] User profile is available. Using 'C:\Users\tjmatheson\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-17 17:08:59.797 +11:00 [INF] Starting type checking service...
+2018-12-17 17:08:59.799 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:08:59.837 +11:00 [INF] Starting type checking service...
+2018-12-17 17:08:59.842 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:09:00.402 +11:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64098/  0
+2018-12-17 17:09:00.402 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/  
+2018-12-17 17:09:00.428 +11:00 [INF] Request finished in 31.1457ms 200 
+2018-12-17 17:09:00.643 +11:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action TKN_STORE.Controllers.MainController.Index (TKN_STORE)
+2018-12-17 17:09:00.659 +11:00 [INF] Executing action method TKN_STORE.Controllers.MainController.Index (TKN_STORE) - Validation state: "Valid"
+2018-12-17 17:09:00.672 +11:00 [INF] Executed action method TKN_STORE.Controllers.MainController.Index (TKN_STORE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.4126000000000003ms.
+2018-12-17 17:09:00.707 +11:00 [INF] Executing ViewResult, running view Index.
+2018-12-17 17:09:01.646 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.css?v=7EBa6wQOASVwMW-afvwt8k7YGWD5mbpX2HZ-adUoBbo  
+2018-12-17 17:09:01.652 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.js?v=IyiulyzKQG6dLby_zqEFXJ-9tedefiK7IWySHGOKkpg  
+2018-12-17 17:09:01.659 +11:00 [INF] Executed ViewResult - view Index executed in 936.4932ms.
+2018-12-17 17:09:01.691 +11:00 [INF] Executed action TKN_STORE.Controllers.MainController.Index (TKN_STORE) in 1043.3576ms
+2018-12-17 17:09:01.697 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.js?v=QxD_LbAEfEFxqdSDvfZ--kQ1Zd9gyXscugEsS4M-VV8  
+2018-12-17 17:09:01.729 +11:00 [INF] Request finished in 1330.2611ms 200 text/html; charset=utf-8
+2018-12-17 17:09:01.868 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=IyiulyzKQG6dLby_zqEFXJ-9tedefiK7IWySHGOKkpg
+2018-12-17 17:09:01.875 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.css?v=7EBa6wQOASVwMW-afvwt8k7YGWD5mbpX2HZ-adUoBbo
+2018-12-17 17:09:01.879 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.js?v=QxD_LbAEfEFxqdSDvfZ--kQ1Zd9gyXscugEsS4M-VV8
+2018-12-17 17:09:06.771 +11:00 [INF] Type checking in progress...
+2018-12-17 17:09:06.836 +11:00 [INF] webpack built f837862ec9e83b64d39d in 6982ms
+2018-12-17 17:09:06.847 +11:00 [INF] Node will restart because file changed: C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\main-client.js
+2018-12-17 17:09:07.016 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Failed to compile.
+2018-12-17 17:09:07.021 +11:00 [ERR] [31m├ù[39m [90m∩╜ówdm∩╜ú[39m: Hash: f837862ec9e83b64d39d
+Version: webpack 4.23.1
+Time: 6982ms
+Built at: 2018-12-17 17:09:06
+                               Asset      Size       Chunks                    Chunk Names
+41b61ebfee29e470850ed2d2d889e33f.png    55 KiB               [emitted]         
+                      main-client.js   614 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ./ClientApp/styles/main.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/main.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/main.scss 4:14-122 18:2-22:4 19:20-128
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/guestLayout.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/guestLayout.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/guestLayout.scss 4:14-129 18:2-22:4 19:20-135
+ @ ./ClientApp/layouts/GuestLayout.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/authorizedLayout.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/authorizedLayout.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/authorizedLayout.scss 4:14-134 18:2-22:4 19:20-140
+ @ ./ClientApp/layouts/AuthorizedLayout.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/loader.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/loader.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/loader.scss 4:14-124 18:2-22:4 19:20-130
+ @ ./ClientApp/components/shared/Loader.tsx
+ @ ./ClientApp/pages/LoginPage.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+2018-12-17 17:09:07.129 +11:00 [INF] The file /dist/vendor.js was not modified
+2018-12-17 17:09:07.149 +11:00 [INF] The file /dist/vendor.css was not modified
+2018-12-17 17:09:07.151 +11:00 [INF] Request finished in 5437.6913ms 304 application/javascript
+2018-12-17 17:09:07.154 +11:00 [INF] Request finished in 5474.879ms 200 application/javascript; charset=UTF-8
+2018-12-17 17:09:07.169 +11:00 [INF] Request finished in 5511.3676ms 304 text/css
+2018-12-17 17:09:07.268 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2018-12-17 17:09:07.395 +11:00 [INF] No type errors found
+2018-12-17 17:09:07.397 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:09:07.400 +11:00 [INF] Time: 7601ms
+2018-12-17 17:09:07.427 +11:00 [INF] Type checking in progress...
+2018-12-17 17:09:07.440 +11:00 [INF] No type errors found
+2018-12-17 17:09:07.442 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:09:07.444 +11:00 [INF] Time: 7604ms
+2018-12-17 17:09:43.699 +11:00 [INF] User profile is available. Using 'C:\Users\tjmatheson\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-17 17:09:45.195 +11:00 [INF] Starting type checking service...
+2018-12-17 17:09:45.195 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:09:45.233 +11:00 [INF] Starting type checking service...
+2018-12-17 17:09:45.233 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:09:45.658 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2018-12-17 17:09:46.272 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/__webpack_hmr
+2018-12-17 17:09:51.673 +11:00 [INF] No type errors found
+2018-12-17 17:09:51.673 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:09:51.673 +11:00 [INF] Time: 6388ms
+2018-12-17 17:09:51.682 +11:00 [INF] webpack built f837862ec9e83b64d39d in 6487ms
+2018-12-17 17:09:51.823 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Failed to compile.
+2018-12-17 17:09:51.823 +11:00 [ERR] [31m├ù[39m [90m∩╜ówdm∩╜ú[39m: Hash: f837862ec9e83b64d39d
+Version: webpack 4.23.1
+Time: 6487ms
+Built at: 2018-12-17 17:09:51
+                               Asset      Size       Chunks                    Chunk Names
+41b61ebfee29e470850ed2d2d889e33f.png    55 KiB               [emitted]         
+                      main-client.js   614 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ./ClientApp/styles/main.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/main.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/main.scss 4:14-122 18:2-22:4 19:20-128
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/authorizedLayout.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/authorizedLayout.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/authorizedLayout.scss 4:14-134 18:2-22:4 19:20-140
+ @ ./ClientApp/layouts/AuthorizedLayout.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/guestLayout.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/guestLayout.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/guestLayout.scss 4:14-129 18:2-22:4 19:20-135
+ @ ./ClientApp/layouts/GuestLayout.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/loader.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/loader.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/loader.scss 4:14-124 18:2-22:4 19:20-130
+ @ ./ClientApp/components/shared/Loader.tsx
+ @ ./ClientApp/pages/LoginPage.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+2018-12-17 17:09:51.857 +11:00 [INF] No type errors found
+2018-12-17 17:09:51.857 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:09:51.857 +11:00 [INF] Time: 6348ms
+2018-12-17 17:11:21.185 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/  
+2018-12-17 17:11:21.240 +11:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action TKN_STORE.Controllers.MainController.Index (TKN_STORE)
+2018-12-17 17:11:21.251 +11:00 [INF] Executing action method TKN_STORE.Controllers.MainController.Index (TKN_STORE) - Validation state: "Valid"
+2018-12-17 17:11:21.260 +11:00 [INF] Executed action method TKN_STORE.Controllers.MainController.Index (TKN_STORE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.9461000000000002ms.
+2018-12-17 17:11:21.281 +11:00 [INF] Executing ViewResult, running view Index.
+2018-12-17 17:11:22.014 +11:00 [INF] Executed ViewResult - view Index executed in 745.4424ms.
+2018-12-17 17:11:22.025 +11:00 [INF] Executed action TKN_STORE.Controllers.MainController.Index (TKN_STORE) in 783.59340000000009ms
+2018-12-17 17:11:22.037 +11:00 [INF] Request finished in 851.407ms 200 text/html; charset=utf-8
+2018-12-17 17:11:22.067 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.css?v=7EBa6wQOASVwMW-afvwt8k7YGWD5mbpX2HZ-adUoBbo  
+2018-12-17 17:11:22.068 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.js?v=QxD_LbAEfEFxqdSDvfZ--kQ1Zd9gyXscugEsS4M-VV8  
+2018-12-17 17:11:22.071 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.js?v=IyiulyzKQG6dLby_zqEFXJ-9tedefiK7IWySHGOKkpg  
+2018-12-17 17:11:22.138 +11:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\vendor.css'
+2018-12-17 17:11:22.141 +11:00 [INF] Request finished in 74.542ms 200 text/css
+2018-12-17 17:11:22.190 +11:00 [INF] Request finished in 119.8483ms 200 application/javascript; charset=UTF-8
+2018-12-17 17:11:22.262 +11:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\vendor.js'
+2018-12-17 17:11:22.266 +11:00 [INF] Request finished in 196.6263ms 200 application/javascript
+2018-12-17 17:11:22.488 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2018-12-17 17:11:22.868 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/favicon.ico  
+2018-12-17 17:11:22.872 +11:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\favicon.ico'
+2018-12-17 17:11:22.875 +11:00 [INF] Request finished in 8.0361ms 200 image/x-icon
+2018-12-17 17:11:43.130 +11:00 [INF] User profile is available. Using 'C:\Users\tjmatheson\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-17 17:11:44.826 +11:00 [INF] Starting type checking service...
+2018-12-17 17:11:44.829 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:11:44.866 +11:00 [INF] Starting type checking service...
+2018-12-17 17:11:44.867 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:11:45.309 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2018-12-17 17:11:45.309 +11:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64098/  0
+2018-12-17 17:11:45.309 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/  
+2018-12-17 17:11:45.344 +11:00 [INF] Request finished in 41.1594ms 200 
+2018-12-17 17:11:45.539 +11:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action TKN_STORE.Controllers.MainController.Index (TKN_STORE)
+2018-12-17 17:11:45.551 +11:00 [INF] Executing action method TKN_STORE.Controllers.MainController.Index (TKN_STORE) - Validation state: "Valid"
+2018-12-17 17:11:45.573 +11:00 [INF] Executed action method TKN_STORE.Controllers.MainController.Index (TKN_STORE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.5759000000000003ms.
+2018-12-17 17:11:45.605 +11:00 [INF] Executing ViewResult, running view Index.
+2018-12-17 17:11:46.089 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/__webpack_hmr
+2018-12-17 17:11:46.525 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.js?v=QxD_LbAEfEFxqdSDvfZ--kQ1Zd9gyXscugEsS4M-VV8  
+2018-12-17 17:11:46.526 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.css?v=7EBa6wQOASVwMW-afvwt8k7YGWD5mbpX2HZ-adUoBbo  
+2018-12-17 17:11:46.528 +11:00 [INF] Executed ViewResult - view Index executed in 875.7038ms.
+2018-12-17 17:11:46.535 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.js?v=IyiulyzKQG6dLby_zqEFXJ-9tedefiK7IWySHGOKkpg  
+2018-12-17 17:11:46.571 +11:00 [INF] Executed action TKN_STORE.Controllers.MainController.Index (TKN_STORE) in 1022.7168ms
+2018-12-17 17:11:46.589 +11:00 [INF] Request finished in 1291.1595ms 200 text/html; charset=utf-8
+2018-12-17 17:11:46.616 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.css?v=7EBa6wQOASVwMW-afvwt8k7YGWD5mbpX2HZ-adUoBbo
+2018-12-17 17:11:46.619 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=IyiulyzKQG6dLby_zqEFXJ-9tedefiK7IWySHGOKkpg
+2018-12-17 17:11:46.622 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.js?v=QxD_LbAEfEFxqdSDvfZ--kQ1Zd9gyXscugEsS4M-VV8
+2018-12-17 17:11:51.560 +11:00 [INF] Type checking in progress...
+2018-12-17 17:11:51.591 +11:00 [INF] webpack built f837862ec9e83b64d39d in 6690ms
+2018-12-17 17:11:51.597 +11:00 [INF] Node will restart because file changed: C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\main-client.js
+2018-12-17 17:11:51.784 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Failed to compile.
+2018-12-17 17:11:51.791 +11:00 [ERR] [31m├ù[39m [90m∩╜ówdm∩╜ú[39m: Hash: f837862ec9e83b64d39d
+Version: webpack 4.23.1
+Time: 6690ms
+Built at: 2018-12-17 17:11:51
+                               Asset      Size       Chunks                    Chunk Names
+41b61ebfee29e470850ed2d2d889e33f.png    55 KiB               [emitted]         
+                      main-client.js   614 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ./ClientApp/styles/main.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/main.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/main.scss 4:14-122 18:2-22:4 19:20-128
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/guestLayout.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/guestLayout.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/guestLayout.scss 4:14-129 18:2-22:4 19:20-135
+ @ ./ClientApp/layouts/GuestLayout.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/authorizedLayout.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/authorizedLayout.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/authorizedLayout.scss 4:14-134 18:2-22:4 19:20-140
+ @ ./ClientApp/layouts/AuthorizedLayout.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/loader.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/loader.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/loader.scss 4:14-124 18:2-22:4 19:20-130
+ @ ./ClientApp/components/shared/Loader.tsx
+ @ ./ClientApp/pages/LoginPage.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+2018-12-17 17:11:51.871 +11:00 [INF] No type errors found
+2018-12-17 17:11:51.887 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:11:51.901 +11:00 [INF] Time: 7032ms
+2018-12-17 17:11:51.922 +11:00 [INF] Request finished in 5377.7738ms 200 application/javascript; charset=UTF-8
+2018-12-17 17:11:51.933 +11:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\vendor.css'
+2018-12-17 17:11:51.950 +11:00 [INF] Request finished in 5412.0587ms 200 text/css
+2018-12-17 17:11:52.175 +11:00 [INF] No type errors found
+2018-12-17 17:11:52.181 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:11:52.188 +11:00 [INF] Time: 7293ms
+2018-12-17 17:11:52.198 +11:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\vendor.js'
+2018-12-17 17:11:52.201 +11:00 [INF] Request finished in 5690.4249ms 200 application/javascript
+2018-12-17 17:11:52.392 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2018-12-17 17:11:52.399 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/favicon.ico  
+2018-12-17 17:11:52.403 +11:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\favicon.ico'
+2018-12-17 17:11:52.406 +11:00 [INF] Request finished in 7.8335ms 200 image/x-icon
+2018-12-17 17:12:26.710 +11:00 [INF] User profile is available. Using 'C:\Users\tjmatheson\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-17 17:12:28.258 +11:00 [INF] Starting type checking service...
+2018-12-17 17:12:28.258 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:12:28.297 +11:00 [INF] Starting type checking service...
+2018-12-17 17:12:28.297 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:12:28.576 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2018-12-17 17:12:29.320 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/__webpack_hmr
+2018-12-17 17:12:34.625 +11:00 [INF] Type checking in progress...
+2018-12-17 17:12:34.641 +11:00 [INF] webpack built f837862ec9e83b64d39d in 6377ms
+2018-12-17 17:12:34.858 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Failed to compile.
+2018-12-17 17:12:34.859 +11:00 [ERR] [31m├ù[39m [90m∩╜ówdm∩╜ú[39m: Hash: f837862ec9e83b64d39d
+Version: webpack 4.23.1
+Time: 6377ms
+Built at: 2018-12-17 17:12:34
+                               Asset      Size       Chunks                    Chunk Names
+41b61ebfee29e470850ed2d2d889e33f.png    55 KiB               [emitted]         
+                      main-client.js   614 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+
+ERROR in ./ClientApp/styles/main.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/main.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/main.scss 4:14-122 18:2-22:4 19:20-128
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/authorizedLayout.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/authorizedLayout.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/authorizedLayout.scss 4:14-134 18:2-22:4 19:20-140
+ @ ./ClientApp/layouts/AuthorizedLayout.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/guestLayout.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/guestLayout.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/guestLayout.scss 4:14-129 18:2-22:4 19:20-135
+ @ ./ClientApp/layouts/GuestLayout.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+
+ERROR in ./ClientApp/styles/loader.scss (./node_modules/css-loader!./node_modules/sass-loader/lib/loader.js!./ClientApp/styles/loader.scss)
+Module build failed (from ./node_modules/sass-loader/lib/loader.js):
+Error: Missing binding C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\vendor\win32-x64-57\binding.node
+Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x
+
+Found bindings for the following environments:
+  - Windows 64-bit with Node.js 10.x
+
+This usually happens because your environment has changed since running `npm install`.
+Run `npm rebuild node-sass` to download the binding for your current environment.
+    at module.exports (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\binding.js:15:13)
+    at Object.<anonymous> (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\node-sass\lib\index.js:14:35)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.sassLoader (C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\node_modules\sass-loader\lib\loader.js:46:72)
+ @ ./ClientApp/styles/loader.scss 4:14-124 18:2-22:4 19:20-130
+ @ ./ClientApp/components/shared/Loader.tsx
+ @ ./ClientApp/pages/LoginPage.tsx
+ @ ./ClientApp/routes.tsx
+ @ ./ClientApp/boot-client.tsx
+ @ multi event-source-polyfill webpack-hot-middleware/client?path=__webpack_hmr&dynamicPublicPath=true ./ClientApp/boot-client.tsx
+2018-12-17 17:12:34.912 +11:00 [INF] No type errors found
+2018-12-17 17:12:34.912 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:12:34.912 +11:00 [INF] Time: 6659ms
+2018-12-17 17:12:35.090 +11:00 [INF] No type errors found
+2018-12-17 17:12:35.090 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:12:35.090 +11:00 [INF] Time: 6605ms
+2018-12-17 17:16:15.025 +11:00 [INF] User profile is available. Using 'C:\Users\tjmatheson\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-17 17:16:16.754 +11:00 [INF] Starting type checking service...
+2018-12-17 17:16:16.757 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:16:16.792 +11:00 [INF] Starting type checking service...
+2018-12-17 17:16:16.794 +11:00 [INF] Using 1 worker with 2048MB memory limit
+2018-12-17 17:16:17.294 +11:00 [INF] Request starting HTTP/1.1 DEBUG http://localhost:64098/  0
+2018-12-17 17:16:17.294 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/  
+2018-12-17 17:16:17.313 +11:00 [INF] Request finished in 24.2325ms 200 
+2018-12-17 17:16:17.524 +11:00 [INF] Route matched with {action = "Index", controller = "Main"}. Executing action TKN_STORE.Controllers.MainController.Index (TKN_STORE)
+2018-12-17 17:16:17.535 +11:00 [INF] Executing action method TKN_STORE.Controllers.MainController.Index (TKN_STORE) - Validation state: "Valid"
+2018-12-17 17:16:17.546 +11:00 [INF] Executed action method TKN_STORE.Controllers.MainController.Index (TKN_STORE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.0117000000000003ms.
+2018-12-17 17:16:17.578 +11:00 [INF] Executing ViewResult, running view Index.
+2018-12-17 17:16:18.984 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.js?v=QxD_LbAEfEFxqdSDvfZ--kQ1Zd9gyXscugEsS4M-VV8  
+2018-12-17 17:16:18.986 +11:00 [INF] Executed ViewResult - view Index executed in 1396.7269000000001ms.
+2018-12-17 17:16:18.994 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/main-client.js?v=-1NKmla_lThklzmhZISfez6w-E1PthOY41ECdhGx-8w  
+2018-12-17 17:16:18.996 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/vendor.css?v=7EBa6wQOASVwMW-afvwt8k7YGWD5mbpX2HZ-adUoBbo  
+2018-12-17 17:16:19.011 +11:00 [INF] Executed action TKN_STORE.Controllers.MainController.Index (TKN_STORE) in 1479.9302ms
+2018-12-17 17:16:19.068 +11:00 [INF] Request finished in 1770.3077ms 200 text/html; charset=utf-8
+2018-12-17 17:16:19.115 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.js?v=QxD_LbAEfEFxqdSDvfZ--kQ1Zd9gyXscugEsS4M-VV8
+2018-12-17 17:16:19.119 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/main-client.js?v=-1NKmla_lThklzmhZISfez6w-E1PthOY41ECdhGx-8w
+2018-12-17 17:16:19.122 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: wait until bundle finished: /dist/vendor.css?v=7EBa6wQOASVwMW-afvwt8k7YGWD5mbpX2HZ-adUoBbo
+2018-12-17 17:16:24.066 +11:00 [INF] Type checking in progress...
+2018-12-17 17:16:24.082 +11:00 [INF] Node will restart because file changed: C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\main-client.js
+2018-12-17 17:16:24.084 +11:00 [INF] webpack built d3daa6e0ebf7055f7a23 in 7258ms
+2018-12-17 17:16:24.377 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Hash: d3daa6e0ebf7055f7a23
+Version: webpack 4.23.1
+Time: 7258ms
+Built at: 2018-12-17 17:16:24
+                               Asset      Size       Chunks                    Chunk Names
+41b61ebfee29e470850ed2d2d889e33f.png    55 KiB               [emitted]         
+                      main-client.js   617 KiB  main-client  [emitted]  [big]  main-client
+                  main-client.js.map  29.9 KiB  main-client  [emitted]         main-client
+Entrypoint main-client [big] = main-client.js main-client.js.map
+2018-12-17 17:16:24.402 +11:00 [INF] [34mi[39m [90m∩╜ówdm∩╜ú[39m: Compiled successfully.
+2018-12-17 17:16:24.547 +11:00 [INF] Request finished in 5546.2248ms 200 application/javascript; charset=UTF-8
+2018-12-17 17:16:24.610 +11:00 [INF] Sending file. Request path: '/dist/vendor.css'. Physical path: 'C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\vendor.css'
+2018-12-17 17:16:24.622 +11:00 [INF] Request finished in 5623.3144ms 200 text/css
+2018-12-17 17:16:24.828 +11:00 [INF] No type errors found
+2018-12-17 17:16:24.833 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:16:24.836 +11:00 [INF] Time: 8019ms
+2018-12-17 17:16:24.842 +11:00 [INF] Sending file. Request path: '/dist/vendor.js'. Physical path: 'C:\Users\tjmatheson\source\repos\TKN_STORE\TKN_STORE\TKN_STORE\wwwroot\dist\vendor.js'
+2018-12-17 17:16:24.845 +11:00 [INF] Request finished in 5872.7672ms 200 application/javascript
+2018-12-17 17:16:24.940 +11:00 [INF] No type errors found
+2018-12-17 17:16:24.942 +11:00 [INF] Version: typescript 3.0.1
+2018-12-17 17:16:24.943 +11:00 [INF] Time: 8189ms
+2018-12-17 17:16:25.262 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/__webpack_hmr  
+2018-12-17 17:16:40.258 +11:00 [INF] Request starting HTTP/1.1 POST http://localhost:64098/api/Account/Login application/json;charset=UTF-8 36
+2018-12-17 17:16:40.291 +11:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing action TKN_STORE.Controllers.AccountController.Login (TKN_STORE)
+2018-12-17 17:16:40.388 +11:00 [INF] Executing action method TKN_STORE.Controllers.AccountController.Login (TKN_STORE) with arguments (["TKN_STORE.Models.LoginModel"]) - Validation state: "Valid"
+2018-12-17 17:16:40.396 +11:00 [INF] Executed action method TKN_STORE.Controllers.AccountController.Login (TKN_STORE), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.8816ms.
+2018-12-17 17:16:40.403 +11:00 [INF] Executing JsonResult, writing value of type 'TKN_STORE.Infrastructure.Result`1[[TKN_STORE.Models.ServiceUser, TKN_STORE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-17 17:16:40.409 +11:00 [INF] Executed action TKN_STORE.Controllers.AccountController.Login (TKN_STORE) in 115.613ms
+2018-12-17 17:16:40.415 +11:00 [INF] Request finished in 153.0398ms 200 application/json; charset=utf-8
+2018-12-17 17:16:40.467 +11:00 [INF] Request starting HTTP/1.1 GET http://localhost:64098/dist/41b61ebfee29e470850ed2d2d889e33f.png  
+2018-12-17 17:16:40.499 +11:00 [INF] Request finished in 26.6324ms 200 image/png; charset=UTF-8
