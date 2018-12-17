@@ -1,10 +1,10 @@
 pragma solidity ^0.4.24;
 
 // ----------------------------------------------------------------------------
-// '0Fucks' token contract
+// 'NTHN' token contract
 //
-// Deployed to : 0xFEc90144250920307CD958d9D5f3D08449F59E56
-// Symbol      : NTHN
+// Deployed to : 0x1f34eAb379C94d8DF2A3E3f3bdf2b4729F13316d
+// Symbol      :  NTHN
 // Name        : NothingToken
 // Total supply: 100,000,000
 // Decimals    : 18
@@ -117,8 +117,8 @@ contract NothingToken is ERC20Interface, Owned, SafeMath {
         name = "NothingToken";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
-        balances[0xFEc90144250920307CD958d9D5f3D08449F59E56] = _totalSupply;
-        emit Transfer(address(0), 0xFEc90144250920307CD958d9D5f3D08449F59E56, _totalSupply);
+        balances[0x1f34eAb379C94d8DF2A3E3f3bdf2b4729F13316d] = _totalSupply;
+        emit Transfer(address(0), 0x1f34eAb379C94d8DF2A3E3f3bdf2b4729F13316d, _totalSupply);
     }
 
 
